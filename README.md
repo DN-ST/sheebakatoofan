@@ -18,15 +18,14 @@
 </p>
 
 <p align='center'>
- <a href="https://heroku.com/deploy?template=https://github.com/DivideProjects/Alita_Robot"><img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy on Heroku"></a></br></br>
-  <a href="https://t.me/DivideProjects"><img src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&amp;logo=telegram&amp;logoColor=white" alt="Join us on Telegram"></a></br></br>
+ <a href="https://heroku.com/deploy?template=https://github.com/"><img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy on Heroku"></a></br></br>
 
 </p>
 
 
-Alita is a Telegram Group managment bot made using **[Pyrogram](https://github.com/pyrogram/pyrogram) _async version_** and **[Python](https://python.org)**, which makes it modern and faster than most of the exisitng Telegram Chat Managers.
+ is a Telegram Group managment bot made using **[Pyrogram](https://github.com/pyrogram/pyrogram) _async version_** and **[Python](https://python.org)**, which makes it modern and faster than most of the exisitng Telegram Chat Managers.
 
-**Alita's features over other bots:**
+**'s features over other bots:**
 - Modern
 - Fast
 - Fully asynchronous
@@ -34,10 +33,9 @@ Alita is a Telegram Group managment bot made using **[Pyrogram](https://github.c
 - Frequently updated
 - Multi Language Support
 
-Can be found on Telegram as [@Alita_Robot](https://t.me/Alita_Robot)
+Can be found on Telegram as [@](https://t.me/)
 </br>
-
-Alita is currently available in 1 Language as of now:
+is currently available in 1 Language as of now:
 - **US English**
 
 More languages can be managed in the _locales_ folder.
@@ -66,18 +64,6 @@ It really motivates me to continue this project further.
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/DivideProjects/Alita_Robot)
 
-### Traditional
-
-- Install Python v3.7 or later from [Python's Website](https://python.org)
-- Install virtualenv using `python3 -m pip -U install virtualenv`.
-- **Fork** or Clone the project using `git clone https://github.com/DivideProjects/Alita_Robot.git`
-- Create Virtualenv using: `virtualenv venv`
-- Install the requirements using `python3 -m pip install -r requirements.txt`
-- Fill in all the variables in *Development* class, not *Config* class. **Sudo, Dev, Whitelist** users are optional!!
-- Change to virtualenv shell by using:
-  `. venv/bin/activate` (Linux)
-  `venv\Scripts\activate` (Windows)
-- Run the bot using `python3 -m alita`
 
 ### Docker
 
