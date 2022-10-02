@@ -1,4 +1,4 @@
-# Alita_Robot
+# 
 
 <p align='center'>
   <img src="https://img.shields.io/github/forks/DivideProjects/Alita_Robot?style=flat-square" alt="Forks">
@@ -33,16 +33,6 @@
 - Frequently updated
 - Multi Language Support
 
-Can be found on Telegram as [@](https://t.me/)
-</br>
-is currently available in 1 Language as of now:
-- **US English**
-
-More languages can be managed in the _locales_ folder.
-
-We are still working on adding new languages.
-
-Help us bring more languages to the bot by contributing to the project on [Crowdin](https://crowdin.com/project/alitarobot)
 
 ## Requirements
 - You need to have a *Mongo Database* (Cluster Preferred)
@@ -62,7 +52,7 @@ It really motivates me to continue this project further.
 
 **Note:** By default the bot uses the default heroku-20 stack.
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/DivideProjects/Alita_Robot)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/)
 
 
 ### Docker
@@ -84,11 +74,6 @@ If all works well, bot should send message to the **MESSAGE_DUMP** Group!
 - Make sure it passes test using `make test`.
 
 
-## Special Thanks to
-- [AmanoTeam](https://github.com/AmanoTeam/) for [EduuRobot](https://github.com/AmanoTeam/EduuRobot) as that helped me make the translation engine.
-- [Dan](https://github.com/delivrance) for his [Pyrogram](https://github.com/pyrogram/pyrogram) library
-- [Paul Larsen](https://github.com/PaulSonOfLars) for his Original Marie Source Code.
-- Everyone else who inspired me to make this project, more names can be seen on commits!
 
 
 ### Copyright & License
