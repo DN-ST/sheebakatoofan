@@ -12,6 +12,8 @@ async def clean_html(text: str) -> str:
         .replace("</i>", "")
         .replace("<u>", "")
         .replace("</u>", "")
+        .replace("</p>", "")
+        .replace("<hue hue bue>", "")
     )
 
 
