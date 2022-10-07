@@ -37,14 +37,14 @@ async def fun_shout(_, m: Message):
         return
 
 
-@Alita.on_message(command("runs"))
+@Alita.on_message(command("funnn"))
 async def fun_run(_, m: Message):
     await m.reply_text(choice(fun_strings.RUN_STRINGS))
     LOGGER.info(f"{m.from_user.id} runed in {m.chat.id}")
     return
 
 
-@Alita.on_message(command("slap"))
+@Alita.on_message(command("islap"))
 async def fun_slap(c: Alita, m: Message):
     me = await c.get_me()
 
@@ -148,7 +148,7 @@ async def weebify(_, m: Message):
     # Not using list itself becuase black changes it to long format...
     normiefont = "a b c d e f g h i j k l m n o p q r s t u v w x y z".split()
     weebyfont = "卂 乃 匚 刀 乇 下 厶 卄 工 丁 长 乚 从 𠘨 口 尸 㔿 尺 丂 丅 凵 リ 山 乂 丫 乙".split()
-
+    Dbfonts = "á b ç d ë f g h ī j k l m ñ ø p q r ß t"
     string = "  ".join(args).lower()
     for normiecharacter in string:
         if normiecharacter in normiefont:
