@@ -35,7 +35,7 @@
 
 
 ## Requirements
-- You need to have a *Mongo Database* (Cluster Preferred)
+- You need to have a *Mongo Db* (Cluster Preferred)
 - Linux/Windows machine (Ubuntu/Debain-based OS Preferred or Windows 10/Server2016 and later)
 
 
