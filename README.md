@@ -27,8 +27,8 @@
 
 **Sheeba's features over other bots:**
 - Modern
-- Fast
-- Fully asynchronous
+- Fast.
+- Fully asynchronous.
 - Fully open-source
 - Frequently updated
 - Multi Language Support.
