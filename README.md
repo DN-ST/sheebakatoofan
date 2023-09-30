@@ -30,7 +30,7 @@
 - Fast
 - Fully asynchronous
 - Fully open-source
-- Frequently updated
+- Frequently updated.
 - Multi Language Support.
 
 
