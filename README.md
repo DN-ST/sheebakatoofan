@@ -31,7 +31,7 @@
 - Fully asynchronous
 - Fully open-source
 - Frequently updated
-- Multi Language Support
+- Multi Language Support.
 
 
 ## Requirements
