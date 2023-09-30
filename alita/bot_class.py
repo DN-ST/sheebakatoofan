@@ -114,3 +114,22 @@ class Alita(Client):
             Runtime: {runtime}s\n
         """,
         )
+async def rxpel(self):
+        """Stop the bot and send a message to MESSAGE_DUMP telling that the bot has exprlled."""
+        runtime = strftime("%Hh %Mm %Ss", gmtime(time() - UPTIME))
+        LOGGER.info("Uploading logs before stopping...!\n")
+        # Send Logs to MESSAGE_DUMP and LOG_CHANNEL
+        await self.send_document(
+            MESSAGE_DUMP,
+            document=LOGFILE,
+            caption=(
+                "Bot Stopped!\n\n" f"Uptime: {runtime}\n" f"<code>{LOG_DATETIME}</code>"
+            ),
+        )
+        if MESSAGE_DUMP:
+            # LOG_CHANNEL is not necessary
+            await self.send_document(
+                MESSAGE_DUMP,
+                document=LOGFILE,
+                caption=f"Uptime: {runtime}",
+            )
