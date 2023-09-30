@@ -201,5 +201,14 @@ def __pre_req_disabling():
     Disabling.repair_db(collection)
     LOGGER.info(f"Done in {round((time() - start), 3)}s!")
 
-
+def add_able(self, cmd: str):
+        with INSERTION_LOCK:
+            if not self.check_cmd_status(cmd):
+                return self.update(
+                    {"_id": self.chat_id},
+                    {
+                        "_id": self.chat_id,
+                        "commands": self.chat_info["commands"].append(cmd),
+                    },
+                )
 __pre_req_disabling()
