@@ -26,9 +26,7 @@
  Is a Telegram Group managment bot made using **[Pyrogram](https://github.com/pyrogram/pyrogram) _async version_** and **[Python](https://python.org)**, which makes it modern and faster than most of the exisitng Telegram Chat Managers.
 
 **Sheeba's features over other bots:**
-- Modern.
-- Fast
-- Fully asynchronous
+
 - Fully open-source
 - Frequently updated.
 - Multi Language Support.
