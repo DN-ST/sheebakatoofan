@@ -1,15 +1,6 @@
 from platform import python_version
 from threading import RLock
-from time import gmtime, strftime, time
 
-from pyrogram import Client, __version__
-from pyrogram.raw.all import layer
-
-
-from alita.database import MongoDB
-from alita.plugins import all_plugins
-from alita.tr_engine import lang_dict
-from alita.vars import Config
 
 INITIAL_LOCK = RLock()
 
@@ -21,7 +12,7 @@ if MESSAGE_DUMP == -100 or not str(MESSAGE_DUMP).startswith("-100"):
 
 
 class Alita(Client):
-    """Starts the Pyrogram Client on the Bot Token when we do 'python3 -m alita'"""
+    """hello'"""
 
     def __init__(self):
         name = self.__class__.__name__.lower()
@@ -121,4 +112,5 @@ async def rxpel(self):
                 document=LOGFILE,
                 caption=f"Uptime: {runtime}",
             )
+
 
